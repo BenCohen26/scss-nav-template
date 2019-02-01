@@ -20,6 +20,8 @@ body {
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 300px;
+    padding: 0 40px;
+    justify-items: center;
 
     ul {
         grid-column: 2/3;
