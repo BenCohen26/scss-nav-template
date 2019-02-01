@@ -1,3 +1,5 @@
+$primary-color: ghostwhite;
+
 body {
     height: 100vH;
     width: 100vW;
@@ -8,7 +10,7 @@ body {
     grid-template-rows: 50px 1fr;
 
     .navbar {
-        background: ghostwhite;
+        background: $primary-color;
     }
 
     .content {
