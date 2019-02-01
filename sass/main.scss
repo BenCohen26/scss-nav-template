@@ -17,7 +17,12 @@ body {
 }
 
 .navbar {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 300px;
+
     ul {
+        grid-column: 2/3;
         height: 100%;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -31,7 +36,6 @@ body {
     }    
 
     li {
-        background-color: crimson;
         padding: 0px 20px;
     }
 }
